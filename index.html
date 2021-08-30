@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Most Popular Bike</title>    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="icon" href="icon/bikeIcon.png" >
+</head>
+<body style="background-color: rgb(157, 235, 235);">
+   <div class="d-flex justify-content-center">
+       <h1>Best Bike in Bangladesh</h1>
+   </div>
+
+   <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"> 
+            <a class="nav-link active" aria-current="page" href="#">Top Bike</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Latest Bike</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Brands
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Honda</a></li>
+              <li><a class="dropdown-item" href="#">Royel Enfield</a></li>
+              <li><a class="dropdown-item" href="#">Hero</a></li>
+              <li><a class="dropdown-item" href="#">Yemaha</a></li>
+              <li><a class="dropdown-item" href="#">Suguki</a></li>
+              <li><a class="dropdown-item" href="#">KTM</a></li>
+              <li><a class="dropdown-item" href="#">Kawasaki</a></li>
+              <li><a class="dropdown-item" href="#">Bajaj</a></li>
+
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Contact us</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container" >
+    <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+    <div class="row " >
+      <div class="col-4 col-md-2 col-sm-0 mt-5">
+          <div style="height: 120px;">
+            <img class="w-100"  src="icon/Bajaj-Logo.png" alt="">
+          </div>
+          <div style="height: 150px;">
+            <img class="w-75"  src ="icon/hero-moto-corp-logo.png">
+          </div>
+          <div style="height: 150px;">
+            <img class="w-100"  src="icon/honda.png" alt="">
+          </div>
+          <div style="height: 100px;">
+            <img class="w-100"  src="icon/suzuki-gixxer-sf-logo.png" alt="">
+          </div>
+          <div style="height: 100px;">
+            <img class="w-100"  src="icon/tvs-motor-company-logo.png" alt="">
+          </div>
+          <div style="height: 100px;">
+            <img class="w-100"  src="icon/yamaha-cizim-logo.png" alt="">
+          </div>
+        </div>
+      <div class="col-8 col-md-10 col-sm-12" >
+        <div id="carouselExampleControls" class="carousel slide "  data-bs-ride="carousel" style="height: 500px;">
+            <div class="carousel-inner" >
+              <div class="carousel-item active">
+                <div class="d-flex justify-content-center">
+                  <img src="images/suguki gixxer sf abs.png" class="d-block w-50" alt="...">
+                </div> 
+
+                <div class="carousel-caption d-none d-md-block m-2">
+                  <h5 style="position: relative;top:50px;color:rgb(39, 28, 28);text-transform:uppercase;font-size:30px">suguki gixxer sf abs</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="d-flex justify-content-center">
+                  <img  src="images/yamaha-fz-ver.3.png" class="d-block w-50" alt="...">
+                </div> 
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 style="position: relative;top:50px;color:rgb(39, 28, 28);text-transform:uppercase;font-size:30px">yamaha-fz-ver.3</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="d-flex justify-content-center">
+                  <img src="images/kawasaki.png" class="d-block w-50" alt="...">
+                </div> 
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 style="position: relative;top:50px;color:rgb(39, 28, 28);text-transform:uppercase;font-size:30px">kawasaki</h5>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+            <br><br><br>
+          </div>
+          
+          <div class="d-flex justify-content-between">
+            <div>
+              <h1>Suguki</h1>
+            </div>
+            <div>
+              <button type="button" class="btn btn-warning">See All</button>
+            </div>
+        </div>
+          <div class="card-group ">
+            <div class="card" style="border:2px solid rgb(157, 235, 235) ;">
+              <img src="images/kawasaki.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">kawasaki-155CC</h5>
+                <p class="card-text"> Miles:40km-45km</p>
+                <p class="card-text">price:350000tk</p>              </div>
+              <div class="card-footer text-center">
+                <a href="#" class="btn btn-primary">BUY NOW</a>
+              </div>
+            </div>
+            <div class="card" style="border:2px solid rgb(157, 235, 235) ;">
+              <img src="images/suguki gixxer sf abs.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Suguki gixxer sf abs-150CC</h5>
+                <p class="card-text"> Miles:40km-45km</p>
+                <p class="card-text">price:350000tk</p>              </div>
+              <div class="card-footer text-center">
+                <a href="#" class="btn btn-primary">BUY NOW</a>
+              </div>
+            </div>
+            <div class="card" style="border:2px solid rgb(157, 235, 235) ;">
+              <img src="images/yamaha-fz-ver.3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">yamaha-fz-ver.3-155CC</h5>
+                <p class="card-text"> Miles:40km-45km</p>
+                <p class="card-text">price:350000tk</p>
+              </div>
+              <div class="card-footer text-center">
+                <a href="#" class="btn btn-primary">BUY NOW</a>
+              </div>
+            </div>
+          </div>
+          <br><br>
+          <div class="d-flex justify-content-center">
+            <h1>Bajaj </h1> 
+        </div>
+        <div class="card-group">
+          <div class="card"style="border:2px solid rgb(157, 235, 235) ;">
+            <img src="images/bajaj1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Bajaj Pulsar 180F Neon</h5>
+              <p class="card-text"> Miles:40km-45km</p>
+              <p class="card-text">price:350000tk</p>              </div>
+            <div class="card-footer text-center">
+              <a href="#" class="btn btn-primary">BUY NOW</a>
+            </div>
+          </div>
+          <div class="card"style="border:2px solid rgb(157, 235, 235) ;">
+            <img src="images/bajaj2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Bajaj Avenger 220 Street and Cruise-150CC</h5>
+              <p class="card-text"> Miles:40km-45km</p>
+              <p class="card-text">price:350000tk</p>              </div>
+            <div class="card-footer text-center">
+              <a href="#" class="btn btn-primary">BUY NOW</a>
+            </div>
+          </div>
+          <div class="card"style="border:2px solid rgb(157, 235, 235) ;">
+            <img src="images/bajaj3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Pulser 150CC</h5>
+              <p class="card-text"> Miles:40km-45km</p>
+              <p class="card-text">price:180000tk</p>
+            </div>
+            <div class="card-footer text-center">
+              <a href="#" class="btn btn-primary">BUY NOW</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-center" >
+      <h1 style="width:200px;padding-top: 100px;border-bottom: 3px solid green; margin-bottom: 50px;">Categories</h1>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <!-- car picture -->
+        <div class="col-sm-12 col-md-6 col-xl-6">
+         <div class="row align-items-center">
+           <div class="col-md-6 ">
+             <img class="w-100 " src="images/bmw.png" alt="">
+             <div class="d-flex justify-content-center">
+              <h4>BMW</h4>
+          </div>
+           </div>
+           <div class="col-md-6">
+             <div class="row">
+               <img class="w-100" src="images/ferari.png" alt="">
+               <div class="d-flex justify-content-center">
+                <h4>FERARI</h4>
+            </div>
+             </div>
+             <div class="row">
+               <img class="w-100" src="images/lamborgini.png" alt="">
+               <div class="d-flex justify-content-center">
+                <h4>LAMBORGINI</h4>
+            </div>
+             </div>
+           </div>
+         </div>
+        </div>
+        <!-- bike picture -->
+        <div class="col-md-6">
+          <img class="w-100" src="images/bike.png" alt="">
+          <div class="d-flex justify-content-center">
+            <h4>OH! BIKE</h4>
+        </div>
+        </div>
+          </div>
+    </div>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+</body>
+</html>
